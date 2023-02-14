@@ -21,12 +21,32 @@ body {
     width: 100%;
     background: var(--gradientGray);
     background-repeat: no-repeat;
+    font-size: 1.8rem;
+    font-family: var(--mainFont);
 }
 .navbar {
     width: 100%;
     max-width: 1110px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2.4rem 3.9rem 0rem 3.9rem;
     margin: 0 auto;
+}
+.navbar-logo {
+    width: 11.17rem;
+    height: 2.768rem;
+}
+.navbar-get-started {
+    font-size: 1.8rem;
+    font-family: var(--mainFont);
+    color: var(--white);
+    background-color: var(--mainBlue);
+    padding: 1.4rem 3.1rem;
+    border: none;
+    border-radius: 2.8rem;
+    cursor: pointer;
+}
+.navbar-get-started:hover {
+    background-color: var(--mainBlueHover);
 }
