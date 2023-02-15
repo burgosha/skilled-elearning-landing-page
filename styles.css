@@ -18,7 +18,6 @@ html {
     box-sizing: inherit;
 }
 body {
-    width: 100%;
     background: var(--gradientGray);
     background-repeat: no-repeat;
     font-size: 1.8rem;
@@ -49,4 +48,16 @@ body {
 }
 .navbar-get-started:hover {
     background-color: var(--mainBlueHover);
+}
+.hero {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0rem 3.9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero picture {
+    width: 100%;
+    position: absolute;
 }
