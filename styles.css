@@ -52,6 +52,7 @@ body {
 .hero {
     width: 100%;
     max-width: 1110px;
+    height: 757px;
     margin: 0 auto;
     padding: 0rem 3.9rem;
     display: grid;
@@ -60,4 +61,5 @@ body {
 .hero picture {
     width: 100%;
     position: absolute;
+    top: -146px;
 }
