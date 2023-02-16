@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.4rem 3.9rem 0rem 3.9rem;
+    padding: 2.4rem 0rem 0rem 0rem;
     margin: 0 auto;
 }
 .navbar-logo {
@@ -54,21 +54,29 @@ body {
     max-width: 1110px;
     height: 710px;
     margin: 0 auto;
-    padding: 0rem 3.9rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.hero-promo {
+    width: 457px;
+    height: 400px;
+    display: grid;
+    justify-content: space-between;
 }
 .hero-promo h2 {
     color: var(--mainBlue);
     font-size: 5.6rem;
     font-weight: 800;
     line-height: 7.1rem;
+    margin: 0;
 }
 .hero-promo p {
     color: var(--mainGray);
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 2.8rem;
+    margin: 0;
 }
 .hero-promo button {
     font-size: 1.8rem;
@@ -92,4 +100,13 @@ body {
     position: absolute;
     top: -146px;
     z-index: -1;
+}
+.courses-list {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 322px);
+    gap: 3rem;
 }
