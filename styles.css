@@ -5,7 +5,7 @@
     --mainDarkPink: #F74780;
     --mainLightPink: #FFA7C3;
     --white: #FFFFFF;
-    --gradientPinkOrange: linear-gradient(rgb(240,42,166), rgb(255,111,72));
+    --gradientPinkOrange: linear-gradient(0deg, rgb(240,42,166), rgb(255,111,72));
     --gradientPinkBlue: linear-gradient(rgb(72,81,255), rgb(240,42,166));
     --gradientGray: linear-gradient(0deg, #F0F1FF 0%, #FFFFFF 50%);
     --mainFont: 'Plus Jakarta Sans', sans-serif;
@@ -103,10 +103,57 @@ body {
 }
 .courses-list {
     width: 100%;
-    max-width: 1140px;
+    max-width: 1110px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 322px);
     gap: 3rem;
+}
+.main-promo {
+    background: var(--gradientPinkOrange);
+    border-radius: 1.5rem;
+    padding: 6.4rem 3.2rem 0 3.2rem;
+}
+.main-promo p {
+    color: var(--white);
+    font-style: normal;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+.course {
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    padding: 6.4rem 3.2rem 4rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.course-icon {
+    position: absolute;
+    top: -2.4rem;
+}
+.course-title {
+    color: (var(--mainBlue));
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin: 0;
+}
+.course-des {
+    color: var(--mainGray);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 0;
+}
+.course-gs-btn {
+    color: var(--mainDarkPink);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    cursor: pointer;
 }
