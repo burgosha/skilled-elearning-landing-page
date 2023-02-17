@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     font-size: 1.8rem;
     font-family: var(--mainFont);
+    overflow-x: hidden;
 }
 .navbar {
     width: 100%;
@@ -108,7 +109,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 322px);
-    gap: 3rem;
+    column-gap: 3rem;
+    row-gap: 5.6rem;
 }
 .main-promo {
     background: var(--gradientPinkOrange);
