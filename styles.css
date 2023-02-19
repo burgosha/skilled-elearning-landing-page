@@ -23,6 +23,7 @@ body {
     font-size: 1.8rem;
     font-family: var(--mainFont);
     overflow-x: hidden;
+    margin: 0;
 }
 .navbar {
     width: 100%;
@@ -105,12 +106,12 @@ body {
 .courses-list {
     width: 100%;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 4.6rem auto 0;
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 322px);
     column-gap: 3rem;
-    row-gap: 5.6rem;
+    row-gap: 8rem;
 }
 .main-promo {
     background: var(--gradientPinkOrange);
@@ -158,4 +159,18 @@ body {
     font-size: 1.8rem;
     line-height: 2.8rem;
     cursor: pointer;
+}
+footer {
+    background-color: var(--mainBlue);
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1110px;
+    height: 12rem;
+    margin: 0 auto;
 }
