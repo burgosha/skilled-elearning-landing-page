@@ -39,7 +39,10 @@ body {
     height: 2.768rem;
 }
 .navbar-get-started {
+    width: 167px;
+    height: 56px;
     font-size: 1.8rem;
+    line-height: 2.8rem;
     font-family: var(--mainFont);
     color: var(--white);
     background-color: var(--mainBlue);
@@ -47,6 +50,8 @@ body {
     border: none;
     border-radius: 2.8rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .navbar-get-started:hover {
     background-color: var(--mainBlueHover);
@@ -102,6 +107,58 @@ body {
     position: absolute;
     top: -146px;
     z-index: -1;
+}
+@media (max-width: 764px) {
+    .navbar {
+        padding: 2.4rem 3.9rem 0rem 3.9rem;
+    }
+    .navbar-logo {
+        width: 8.9rem;
+        height: 2.5rem;
+    }
+    .navbar-get-started {
+        width: 140px;
+        height: 45px;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        padding: 1.4rem 2.4rem;
+    }
+    .hero {
+        width: 100%;
+        max-width: 764px;
+        height: 476px;
+        padding: 0 3.9rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .hero-promo {
+        width: 398px;
+        height: 284px;
+    }
+    .hero-promo h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .hero-promo p {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    .hero-promo button {
+        width: 167px;
+        height: 56px;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    .hero-promo button:hover {
+        opacity: 0.5;
+    }
+    .hero-image {
+        width: 640px;
+        position: absolute;
+        top: 5px;
+        left: 375px;
+    }
 }
 .courses-list {
     width: 100%;
