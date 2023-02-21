@@ -163,7 +163,7 @@ body {
 .courses-list {
     width: 100%;
     max-width: 1110px;
-    margin: 4.6rem auto 0;
+    margin: 4.6rem auto 14rem;
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 322px);
@@ -230,4 +230,18 @@ footer {
     max-width: 1110px;
     height: 12rem;
     margin: 0 auto;
+}
+.footer-btn {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-family: var(--mainFont);
+    font-weight: 700;
+    color: var(--white);
+    background: var(--gradientPinkBlue);
+    padding: 1.4rem 3.1rem;
+    border: none;
+    border-radius: 3.1rem;
+    width: 167px;
+    height: 56px;
+    cursor: pointer;
 }
