@@ -6,7 +6,7 @@
     --mainLightPink: #FFA7C3;
     --white: #FFFFFF;
     --gradientPinkOrange: linear-gradient(0deg, rgb(240,42,166), rgb(255,111,72));
-    --gradientPinkBlue: linear-gradient(rgb(72,81,255), rgb(240,42,166));
+    --gradientPinkBlue: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     --gradientGray: linear-gradient(0deg, #F0F1FF 0%, #FFFFFF 50%);
     --mainFont: 'Plus Jakarta Sans', sans-serif;
 }
@@ -100,7 +100,7 @@ body {
     cursor: pointer;
 }
 .hero-promo button:hover {
-    opacity: 0.5;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--gradientPinkOrange);
 }
 .hero picture {
     width: 100%;
@@ -244,4 +244,7 @@ footer {
     width: 167px;
     height: 56px;
     cursor: pointer;
+}
+.footer-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--gradientPinkBlue);
 }
