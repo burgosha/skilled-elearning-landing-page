@@ -283,13 +283,13 @@ footer {
         margin: 0 auto;
     }
     .footer-links {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         width: 100%;
-        max-width: 1110px;
+        max-width: 689px;
         height: 12rem;
-        margin: 0 auto;
+    }
+    .footer-logo {
+        width: 89px;
+        height: 35px;
     }
     .footer-btn {
         font-size: 1.6rem;
