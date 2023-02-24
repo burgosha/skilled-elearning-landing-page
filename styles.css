@@ -311,15 +311,36 @@ footer {
         width: 100%;
         height: 632px;
         max-width: 343px;
-        padding: 0 1.6rem;
+        padding: 0;
+        margin: 0 1.6rem;
         display: flex;
         flex-direction: column;
     }
     .hero-promo {
         width: 343px;
-        height: 285px;
         margin-top: 3.8rem;
-        display: grid;
-        justify-content: space-between;
+        gap: 2.4rem;
+    }
+    .hero-promo h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .hero-promo p {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        word-break: keep-all;
+    }
+    .hero-promo button {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        height: 56px;
+    }
+    .hero-image {
+        width: 100%;
+        position: unset;
+    }
+    .hero picture {
+        position: unset;
+        top: 0;
     }
 }
