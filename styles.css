@@ -303,3 +303,23 @@ footer {
         background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--gradientPinkBlue);
     }
 }
+@media (max-width: 375px) {
+    .navbar {
+        padding: 1.6rem 1.6rem 0rem 1.6rem;
+    }
+    .hero {
+        width: 100%;
+        height: 632px;
+        max-width: 343px;
+        padding: 0 1.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-promo {
+        width: 343px;
+        height: 285px;
+        margin-top: 3.8rem;
+        display: grid;
+        justify-content: space-between;
+    }
+}
