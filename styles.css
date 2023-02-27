@@ -340,7 +340,7 @@ footer {
         position: unset;
     }
     .hero picture {
-        position: unset;
-        top: 0;
+        top: 35rem;
+        left: -3rem;
     }
 }
